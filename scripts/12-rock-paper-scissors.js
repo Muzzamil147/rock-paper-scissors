@@ -121,8 +121,8 @@ function playGame(playerMove) {
   // Show moves with icons
   document.querySelector('.js-moves').innerHTML = `
     You
-    <img src="images/${playerMove}-emoji.png" class="move-icon">
-    <img src="images/${computerMove}-emoji.png" class="move-icon">
+    <img src="./images/${playerMove.toLowerCase()}-emoji.png" class="move-icon">
+    <img src="./images/${computerMove.toLowerCase()}-emoji.png" class="move-icon">
     Computer
   `;
 }
